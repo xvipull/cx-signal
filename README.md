@@ -38,3 +38,5 @@ This repository is a documentation and structure shell. Add environment setup an
 See [the CXSignal project charter](docs/project-charter.md) for personas, decisions, scope, exclusions, risks, data ownership, operating cadence, privacy principles, and acceptance criteria.
 
 See the [CX KPI catalog and measurement policy](docs/kpi-catalog-and-measurement-policy.md) for KPI formulas, denominator rules, metric ownership, survey-linkage assumptions, and attribution limits.
+
+See [CX data sources and dictionary](docs/data-sources-and-dictionary.md) for candidate source domains, logical fields, source grain, join-key guidance, and raw-data provenance controls.

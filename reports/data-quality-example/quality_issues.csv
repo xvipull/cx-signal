@@ -1,0 +1,3 @@
+severity,check,record_ref,field,reason
+warn,stale_input,survey-batch,source_extracted_at,Input exceeds freshness threshold (102 hours old)
+warn,stale_input,service-batch,source_extracted_at,Input exceeds freshness threshold (102 hours old)

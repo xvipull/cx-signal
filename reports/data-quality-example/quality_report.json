@@ -1,0 +1,37 @@
+{
+  "check_counts": {
+    "duplicate_interactions": 0,
+    "impossible_timestamps": 0,
+    "invalid_scores": 0,
+    "orphaned_customers": 0,
+    "required_fields": 0,
+    "response_incompleteness": 0,
+    "stale_inputs": 2
+  },
+  "freshness": {
+    "service": "stale (102 hours)",
+    "survey": "stale (102 hours)"
+  },
+  "generated_at_utc": "2026-11-03T06:28:54.793698Z",
+  "issue_counts": {
+    "fail": 0,
+    "warn": 2
+  },
+  "overall_status": "warn",
+  "policy_sha256": "7c6fa9beac3b22795686c1ff11d443b61a589140a651f6dcd50777a348279318",
+  "policy_version": "cx-data-quality-v1",
+  "report_version": 1,
+  "response_completeness": {
+    "complete": 3,
+    "incomplete": 0,
+    "rate_percent": 100.0
+  },
+  "row_counts": {
+    "service": 4,
+    "survey": 3
+  },
+  "source_batches": {
+    "service": "eedd3e0ab33ad3144df2",
+    "survey": "b07c11ddfc68c75239bc"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "policy_version": "cx-data-quality-v1",
+  "max_input_age_days": 2,
+  "future_timestamp_tolerance_minutes": 5,
+  "required_fields": {
+    "survey": ["survey_response_id", "question_id", "response_value", "response_submitted_at", "customer_key"],
+    "service": ["service_event_id", "customer_key", "event_at", "channel", "status_code"]
+  },
+  "duplicate_keys": {
+    "service": ["service_event_id"]
+  },
+  "score_ranges_by_question": {
+    "NPS-v1": [0, 10],
+    "CSAT-v2": [1, 5]
+  },
+  "timestamp_fields": {
+    "survey": ["response_submitted_at"],
+    "service": ["event_at", "event_started_at", "event_ended_at", "case_created_at", "case_resolved_at"]
+  },
+  "incomplete_fields": {
+    "survey": ["response_value"]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "taxonomy_version": "cx-issues-v1",
+  "normalization": "unicode_nfkc_casefold_alphanumeric_tokens",
+  "alias_confidence": 0.95,
+  "categories": [
+    {
+      "issue_code": "delivery_delay",
+      "level_1": "fulfillment",
+      "level_2": "delivery_delay",
+      "level_3": "late_or_missed_delivery",
+      "canonical_label": "Late or missed delivery",
+      "aliases": ["late delivery", "delivery late", "delayed shipment", "order arrived late", "missed delivery", "delivery delay", "package was late"]
+    },
+    {
+      "issue_code": "delivery_damage",
+      "level_1": "fulfillment",
+      "level_2": "delivery_damage",
+      "level_3": "damaged_or_missing_items",
+      "canonical_label": "Damaged or missing items",
+      "aliases": ["damaged delivery", "item arrived broken", "package damaged", "missing item", "items missing", "product damaged in transit"]
+    },
+    {
+      "issue_code": "product_defect",
+      "level_1": "product",
+      "level_2": "product_quality",
+      "level_3": "defective_product",
+      "canonical_label": "Defective product",
+      "aliases": ["product defective", "defective item", "product does not work", "item stopped working", "faulty product"]
+    },
+    {
+      "issue_code": "billing_incorrect_charge",
+      "level_1": "billing",
+      "level_2": "charges_and_invoices",
+      "level_3": "incorrect_charge",
+      "canonical_label": "Incorrect charge",
+      "aliases": ["wrong charge", "charged twice", "duplicate charge", "incorrect billing", "overcharged", "unexpected charge"]
+    },
+    {
+      "issue_code": "payment_failure",
+      "level_1": "billing",
+      "level_2": "payments",
+      "level_3": "payment_failed",
+      "canonical_label": "Payment failed",
+      "aliases": ["payment failed", "payment declined", "card payment error", "unable to pay", "checkout payment failure"]
+    },
+    {
+      "issue_code": "account_access",
+      "level_1": "account",
+      "level_2": "authentication",
+      "level_3": "cannot_access_account",
+      "canonical_label": "Cannot access account",
+      "aliases": ["cannot log in", "cant login", "login problem", "account locked", "password reset issue", "unable to sign in"]
+    },
+    {
+      "issue_code": "service_wait_time",
+      "level_1": "support_service",
+      "level_2": "availability_and_wait",
+      "level_3": "long_wait_time",
+      "canonical_label": "Long wait time",
+      "aliases": ["long wait", "waited too long", "support queue delay", "slow response", "long hold time"]
+    },
+    {
+      "issue_code": "service_resolution",
+      "level_1": "support_service",
+      "level_2": "resolution_quality",
+      "level_3": "issue_not_resolved",
+      "canonical_label": "Issue not resolved",
+      "aliases": ["not resolved", "problem still happening", "support did not fix", "unresolved issue", "same problem remains"]
+    },
+    {
+      "issue_code": "cancellation_refund",
+      "level_1": "account_and_orders",
+      "level_2": "cancellation_and_refunds",
+      "level_3": "refund_not_received",
+      "canonical_label": "Refund not received",
+      "aliases": ["refund missing", "refund not received", "waiting for refund", "cancellation refund delay", "refund delayed"]
+    }
+  ]
+}

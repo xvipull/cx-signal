@@ -44,3 +44,5 @@ See [CX data sources and dictionary](docs/data-sources-and-dictionary.md) for ca
 See the [raw ingestion framework](docs/ingestion-framework.md) for manifest-driven CSV ingestion, schema validation, repeatable configurations, and synthetic fixtures.
 
 See the [staging and identity policy](docs/staging-and-identity-policy.md) for normalization rules, conservative survey-service matching, and ambiguous-match quarantine.
+
+See the [issue taxonomy policy](docs/issue-taxonomy-policy.md) for governed free-text label mapping, confidence semantics, and unmapped reasons.

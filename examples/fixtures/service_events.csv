@@ -1,0 +1,5 @@
+service_event_id,case_id,order_id,customer_key,channel,status_code,event_at
+sev-syn-001,case-syn-101,order-syn-501,ANON-SYN-001, Phone ,Closed,2026-10-26T10:00:00Z
+sev-syn-002,case-syn-102,order-syn-502,anon-syn-002,web form,In Progress,2026-10-27T08:00:00Z
+sev-syn-003,case-syn-103,order-syn-503,anon-syn-003,Email,Resolved,2026-10-28T08:00:00Z
+sev-syn-004,case-syn-104,order-syn-504,anon-syn-002,Chat,Pending,2026-10-27T09:00:00Z

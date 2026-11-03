@@ -1,0 +1,33 @@
+{
+  "policy_version": "survey-service-match-v1",
+  "survey_time_field": "response_submitted_at",
+  "service_time_field": "event_at",
+  "date_fields": [],
+  "survey_identifier_fields": ["survey_response_id", "survey_invitation_id", "service_event_id", "case_id", "order_id"],
+  "service_identifier_fields": ["service_event_id", "case_id", "order_id"],
+  "customer_key_field": "customer_key",
+  "matching_window_days": 7,
+  "channel_aliases": {
+    "phone": "voice",
+    "call": "voice",
+    "voice": "voice",
+    "email": "email",
+    "e-mail": "email",
+    "chat": "chat",
+    "messaging": "chat",
+    "web": "web",
+    "web form": "web",
+    "social": "social"
+  },
+  "status_aliases": {
+    "open": "open",
+    "new": "open",
+    "in progress": "in_progress",
+    "pending": "pending",
+    "resolved": "resolved",
+    "closed": "resolved",
+    "complete": "resolved",
+    "cancelled": "cancelled",
+    "canceled": "cancelled"
+  }
+}

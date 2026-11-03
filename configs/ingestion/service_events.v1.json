@@ -1,0 +1,21 @@
+{
+  "source_system": "synthetic-service",
+  "source_domain": "service-event",
+  "source_owner": "Synthetic fixture; production owner unconfirmed",
+  "schema_version": "service-events-v1",
+  "source_extracted_at": "2026-10-30T00:00:00Z",
+  "sensitivity_classification": "synthetic-public-example",
+  "approval_reference": "not-applicable-synthetic-fixture",
+  "retention_reference": "repository-fixture",
+  "encoding": "utf-8-sig",
+  "allow_extra_columns": false,
+  "columns": [
+    {"name": "service_event_id", "type": "string", "required": true},
+    {"name": "case_id", "type": "string", "required": false},
+    {"name": "order_id", "type": "string", "required": false},
+    {"name": "customer_key", "type": "string", "required": true},
+    {"name": "channel", "type": "string", "required": true},
+    {"name": "status_code", "type": "string", "required": true},
+    {"name": "event_at", "type": "timestamp", "required": true}
+  ]
+}

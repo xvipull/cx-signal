@@ -42,3 +42,5 @@ See the [CX KPI catalog and measurement policy](docs/kpi-catalog-and-measurement
 See [CX data sources and dictionary](docs/data-sources-and-dictionary.md) for candidate source domains, logical fields, source grain, join-key guidance, and raw-data provenance controls.
 
 See the [raw ingestion framework](docs/ingestion-framework.md) for manifest-driven CSV ingestion, schema validation, repeatable configurations, and synthetic fixtures.
+
+See the [staging and identity policy](docs/staging-and-identity-policy.md) for normalization rules, conservative survey-service matching, and ambiguous-match quarantine.

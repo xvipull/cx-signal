@@ -1,0 +1,4 @@
+survey_response_id,survey_invitation_id,customer_key,question_id,question_version,response_value,response_submitted_at
+resp-syn-001,invite-syn-001,anon-syn-001,NPS-v1,1,9,2026-10-27T10:30:00Z
+resp-syn-002,invite-syn-002,anon-syn-002,NPS-v1,1,6,2026-10-27T11:45:00Z
+resp-syn-003,invite-syn-003,anon-syn-003,CSAT-v2,2,5,2026-10-28T09:15:00Z

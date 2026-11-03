@@ -40,3 +40,5 @@ See [the CXSignal project charter](docs/project-charter.md) for personas, decisi
 See the [CX KPI catalog and measurement policy](docs/kpi-catalog-and-measurement-policy.md) for KPI formulas, denominator rules, metric ownership, survey-linkage assumptions, and attribution limits.
 
 See [CX data sources and dictionary](docs/data-sources-and-dictionary.md) for candidate source domains, logical fields, source grain, join-key guidance, and raw-data provenance controls.
+
+See the [raw ingestion framework](docs/ingestion-framework.md) for manifest-driven CSV ingestion, schema validation, repeatable configurations, and synthetic fixtures.

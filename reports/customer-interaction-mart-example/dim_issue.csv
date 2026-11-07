@@ -1,0 +1,5 @@
+issue_sk,issue_code,issue_level_1,issue_level_2,issue_level_3,canonical_issue_label,taxonomy_version
+unknown_issue,unknown_issue,unknown,unknown,unknown,Unknown / unmapped,cx-issues-v1
+delivery_delay,delivery_delay,fulfillment,delivery_delay,late_or_missed_delivery,Late or missed delivery,cx-issues-v1
+billing_incorrect_charge,billing_incorrect_charge,billing,charges_and_invoices,incorrect_charge,Incorrect charge,cx-issues-v1
+delivery_damage,delivery_damage,fulfillment,delivery_damage,damaged_or_missing_items,Damaged or missing items,cx-issues-v1

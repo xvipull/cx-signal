@@ -1,0 +1,4 @@
+order_id,customer_key,order_at,order_status,order_channel
+order-syn-501,anon-syn-001,2026-10-20T09:00:00Z,delivered,web
+order-syn-502,anon-syn-002,2026-10-24T14:30:00Z,delivered,mobile
+order-syn-503,anon-syn-003,2026-10-25T16:45:00Z,shipped,web

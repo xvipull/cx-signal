@@ -1,0 +1,36 @@
+{
+  "generated_at_utc": "2026-11-07T09:38:19.815803+00:00",
+  "mart_version": 1,
+  "output_sha256": {
+    "dim_channel.csv": "6cbd1c36a45c78ec4376639d64646f173fa5da4b670a2e39bf7c6daab686dd68",
+    "dim_customer.csv": "8bafd1f985dbe6c05e4ec279f5d1734497118978150a6fa57e1886104ee80d34",
+    "dim_date.csv": "1d8ef5e9be8610bcc275af5362b15e46ab997e9e233aa6448c0263a88c492b14",
+    "dim_issue.csv": "985c772788002ec96763638f457e6976e142646f202d02cf39b69d7199803e34",
+    "dim_status.csv": "b82a8f895ea7b158d2a9468fac7ba7aa77565acae9350f44fb967d231dd86eae",
+    "fact_complaint.csv": "e88f8e947bf9279b4fa69268dab420123bd61d0d589e59ba67a04bd98d787e9c",
+    "fact_order.csv": "a2963ee9fb94b46cbfbec39a8388aeb55fb772c8a74d7ffcc28316c4b224c808",
+    "fact_resolution.csv": "03004e48b2f5edcff7cbeb55f24953334c7c33997b99c5337e25e0174dc49feb",
+    "fact_service_interaction.csv": "7b11db023bcea86f62726ca67b0aa6f26663b3d1440fbb6a14b45ef4d0575324",
+    "fact_survey_response.csv": "c1180a145a4a0e89a9f76eaa15ef0be9398a3fc699cbc83fdcc456390f5e21c6"
+  },
+  "row_counts": {
+    "dim_channel": 4,
+    "dim_customer": 3,
+    "dim_date": 6,
+    "dim_issue": 4,
+    "dim_status": 5,
+    "fact_complaint": 2,
+    "fact_order": 3,
+    "fact_resolution": 2,
+    "fact_service_interaction": 4,
+    "fact_survey_response": 3
+  },
+  "source_sha256": {
+    "complaints.csv": "26e8abe2a04c127421789beb378bdee90858bac476f085b21411cf2e9373dd73",
+    "orders.csv": "7847dd50c276c1684dffce174932746f8eb4199599cf068b37566840110c0ce1",
+    "resolutions.csv": "ff60c70d7943dc813d76b92ebfa9ac0d1338e60556543f261db9ff1c46f3de28",
+    "staged_service_events.csv": "3c622fc24e5fc32c023fc0b8eac125eefc2577b9852eddbf5f9530e19b004fe5",
+    "staged_surveys.csv": "1e403ab72694c243a7eb683379cb29ecd6e22011656b53e229c0a2f12a1d6655"
+  },
+  "taxonomy_version": "cx-issues-v1"
+}

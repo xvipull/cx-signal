@@ -48,3 +48,5 @@ See the [staging and identity policy](docs/staging-and-identity-policy.md) for n
 See the [issue taxonomy policy](docs/issue-taxonomy-policy.md) for governed free-text label mapping, confidence semantics, and unmapped reasons.
 
 See the [data-quality controls](docs/data-quality-controls.md) for required-field, duplicate, score, timestamp, orphan, freshness, and completeness checks, plus the generated example report.
+
+See the [customer and interaction mart](docs/customer-interaction-mart.md) for dimensional tables, fact grains, keys, and aggregation guidance.

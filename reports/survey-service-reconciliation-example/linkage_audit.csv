@@ -1,0 +1,8 @@
+record_type,record_ref,disposition,matched_record_refs,match_methods,ambiguous_candidate_refs,reason
+survey,survey_b01a0d1d1bac51dd,matched,"[""service_2cd4af9495dbd1bf""]","[""unique_customer_time_window""]",[],
+survey,survey_ffb21d5f9bf2f1c7,ambiguous,[],[],"[""service_2c9d2bce52ee3229"", ""service_d10dcf06dc7bad82""]",multiple_customer_time_window_matches
+survey,survey_ed4e201cbee5cf14,matched,"[""service_af12a4b85e605524""]","[""unique_customer_time_window""]",[],
+service,service_2cd4af9495dbd1bf,matched,"[""survey_b01a0d1d1bac51dd""]","[""unique_customer_time_window""]",[],
+service,service_2c9d2bce52ee3229,ambiguous,[],[],"[""survey_ffb21d5f9bf2f1c7""]",candidate_for_ambiguous_survey
+service,service_af12a4b85e605524,matched,"[""survey_ed4e201cbee5cf14""]","[""unique_customer_time_window""]",[],
+service,service_d10dcf06dc7bad82,ambiguous,[],[],"[""survey_ffb21d5f9bf2f1c7""]",candidate_for_ambiguous_survey

@@ -145,7 +145,8 @@ def match_surveys(surveys: list[dict[str, str]], services: list[dict[str, str]],
             matches.append(match_record(survey, service, method))
             continue
         if len(candidates) > 1:
-            quarantine.append(quarantine_record(survey, "multiple_explicit_service_matches"))
+            quarantine.append(quarantine_record(survey, "multiple_explicit_service_matches",
+                                                [candidate[0] for candidate in candidates.values()]))
             continue
 
         customer_key = survey.get(customer_field, "")
@@ -163,7 +164,7 @@ def match_surveys(surveys: list[dict[str, str]], services: list[dict[str, str]],
         if len(temporal_candidates) == 1:
             matches.append(match_record(survey, temporal_candidates[0], "unique_customer_time_window"))
         elif len(temporal_candidates) > 1:
-            quarantine.append(quarantine_record(survey, "multiple_customer_time_window_matches"))
+            quarantine.append(quarantine_record(survey, "multiple_customer_time_window_matches", temporal_candidates))
         else:
             quarantine.append(quarantine_record(survey, "no_eligible_service_match"))
     return matches, quarantine
@@ -179,9 +180,13 @@ def match_record(survey: dict[str, str], service: dict[str, str], method: str) -
     }
 
 
-def quarantine_record(survey: dict[str, str], reason: str) -> dict[str, str]:
+def quarantine_record(survey: dict[str, str], reason: str,
+                      candidates: list[dict[str, str]] | None = None) -> dict[str, str]:
     return {"survey_response_id": survey.get("survey_response_id", ""),
-            "survey_source_row": survey["_source_row_number"], "quarantine_reason": reason}
+            "survey_source_row": survey["_source_row_number"], "quarantine_reason": reason,
+            "candidate_service_event_ids": json.dumps(
+                [candidate.get("service_event_id", "") for candidate in candidates or []]),
+            "candidate_count": str(len(candidates or []))}
 
 
 def write_csv(path: Path, rows: list[dict[str, str]]) -> None:

@@ -1,0 +1,75 @@
+{
+  "counts": {
+    "service": {
+      "ambiguous": 2,
+      "matched": 2,
+      "total": 4,
+      "unmatched": 0
+    },
+    "survey": {
+      "ambiguous": 1,
+      "matched": 2,
+      "total": 3,
+      "unmatched": 0
+    }
+  },
+  "generated_at_utc": "2026-11-13T04:48:52.722943Z",
+  "overall_status": "pass",
+  "policy_version": "survey-service-reconciliation-v1",
+  "rates": {
+    "service_ambiguous_rate": 0.5,
+    "service_match_rate": 0.5,
+    "service_unmatched_rate": 0.0,
+    "survey_ambiguous_rate": 0.3333333333333333,
+    "survey_match_rate": 0.6666666666666666,
+    "survey_unmatched_rate": 0.0
+  },
+  "source_policy_sha256": "0d12ff1f99e090c29c3e632a01379bdb1bf8693753037b8ee0447f8725261837",
+  "source_staging_batch_id": "7970e1f4081846eabbb8",
+  "threshold_checks": {
+    "service_ambiguous_rate": {
+      "actual": 0.5,
+      "operator": "<=",
+      "status": "pass",
+      "threshold": 0.55
+    },
+    "service_match_rate": {
+      "actual": 0.5,
+      "operator": ">=",
+      "status": "pass",
+      "threshold": 0.5
+    },
+    "service_unmatched_rate": {
+      "actual": 0.0,
+      "operator": "<=",
+      "status": "pass",
+      "threshold": 0.25
+    },
+    "survey_ambiguous_rate": {
+      "actual": 0.3333333333333333,
+      "operator": "<=",
+      "status": "pass",
+      "threshold": 0.35
+    },
+    "survey_match_rate": {
+      "actual": 0.6666666666666666,
+      "operator": ">=",
+      "status": "pass",
+      "threshold": 0.6
+    },
+    "survey_unmatched_rate": {
+      "actual": 0.0,
+      "operator": "<=",
+      "status": "pass",
+      "threshold": 0.25
+    }
+  },
+  "thresholds": {
+    "max_service_ambiguous_rate": 0.55,
+    "max_survey_ambiguous_rate": 0.35,
+    "max_unmatched_service_rate": 0.25,
+    "max_unmatched_survey_rate": 0.25,
+    "min_service_match_rate": 0.5,
+    "min_survey_match_rate": 0.6
+  }
+}

@@ -52,3 +52,5 @@ See the [data-quality controls](docs/data-quality-controls.md) for required-fiel
 See the [customer and interaction mart](docs/customer-interaction-mart.md) for dimensional tables, fact grains, keys, and aggregation guidance.
 
 See the [survey-service reconciliation controls](docs/survey-service-reconciliation.md) for linkage audit dispositions, rate thresholds, and reconciliation queries.
+
+See the [SQL KPI layer](docs/sql-kpi-layer.md) for reusable PostgreSQL views, source contracts, KPI denominators, and segmentation fields.

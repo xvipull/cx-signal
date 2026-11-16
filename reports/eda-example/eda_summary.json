@@ -1,0 +1,227 @@
+{
+  "channel_counts": {
+    "orders": {
+      "mobile": 1,
+      "web": 2
+    },
+    "service_interactions": {
+      "chat": 1,
+      "email": 1,
+      "voice": 1,
+      "web": 1
+    }
+  },
+  "contact_timing": {
+    "hour_counts_utc": {
+      "0": 0,
+      "1": 0,
+      "10": 1,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "2": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 2,
+      "9": 1
+    },
+    "weekday_counts_utc": {
+      "Fri": 0,
+      "Mon": 1,
+      "Sat": 0,
+      "Sun": 0,
+      "Thu": 0,
+      "Tue": 2,
+      "Wed": 1
+    }
+  },
+  "data_scope": "checked-in synthetic fixtures only",
+  "generated_at_utc": "2026-11-16T06:38:22.993063Z",
+  "issue_mix": {
+    "Complaints": {
+      "Incorrect charge": 1,
+      "Late or missed delivery": 1
+    },
+    "Label examples": {
+      "Damaged or missing items": 1,
+      "Incorrect charge": 1,
+      "Late or missed delivery": 1,
+      "Unmapped (blank_label)": 1,
+      "Unmapped (no_governed_mapping)": 1
+    },
+    "Resolutions": {
+      "Damaged or missing items": 1,
+      "Late or missed delivery": 1
+    }
+  },
+  "limitations": [
+    "The fixtures are tiny, synthetic examples and are not representative of customers or operations.",
+    "There is no product identifier or product segment in the sample, so product-segment analysis is unavailable.",
+    "Survey records have no channel field and include an ambiguous customer/time linkage; score differences cannot be attributed to service interactions.",
+    "The interaction fixture lacks case-created timestamps; plotted event-to-resolution lag is a proxy from the earliest observed interaction, not the official resolution-time KPI.",
+    "Issue source counts overlap across examples, complaints, and resolutions and are not deduplicated case counts.",
+    "All timestamps are converted to UTC for timing charts; actual operational analysis should use approved local/business calendars."
+  ],
+  "missingness": {
+    "Complaints.case_id": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Complaints.complaint_at": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Complaints.customer_key": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Complaints.issue_label": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Issue label examples.case_id": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 5
+    },
+    "Issue label examples.issue_label": {
+      "missing": 1,
+      "percent": 20.0,
+      "rows": 5
+    },
+    "Orders.customer_key": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    },
+    "Orders.order_at": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    },
+    "Orders.order_channel": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    },
+    "Orders.order_status": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    },
+    "Resolutions.case_id": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Resolutions.customer_key": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Resolutions.resolution_code": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Resolutions.resolved_at": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 2
+    },
+    "Service.channel": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 4
+    },
+    "Service.customer_key": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 4
+    },
+    "Service.event_at": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 4
+    },
+    "Service.status_code": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 4
+    },
+    "Survey.customer_key": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    },
+    "Survey.question_id": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    },
+    "Survey.response_submitted_at": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    },
+    "Survey.response_value": {
+      "missing": 0,
+      "percent": 0.0,
+      "rows": 3
+    }
+  },
+  "operational_diagnostics": {
+    "event_to_resolution_lag_case_refs": [
+      "Case 1",
+      "Case 2"
+    ],
+    "event_to_resolution_lag_hours": [
+      22.0,
+      25.0
+    ],
+    "status_counts": {
+      "closed": 1,
+      "in progress": 1,
+      "pending": 1,
+      "resolved": 1
+    }
+  },
+  "row_counts": {
+    "complaints": 2,
+    "issue label examples": 5,
+    "orders": 3,
+    "resolutions": 2,
+    "service": 4,
+    "survey": 3
+  },
+  "scores": {
+    "csat": {
+      "satisfied": 1,
+      "satisfied_percent": 100.0,
+      "valid_responses": 1
+    },
+    "nps": {
+      "detractors": 1,
+      "nps_points": 0.0,
+      "promoters": 1,
+      "valid_responses": 2
+    }
+  }
+}

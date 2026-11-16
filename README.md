@@ -54,3 +54,5 @@ See the [customer and interaction mart](docs/customer-interaction-mart.md) for d
 See the [survey-service reconciliation controls](docs/survey-service-reconciliation.md) for linkage audit dispositions, rate thresholds, and reconciliation queries.
 
 See the [SQL KPI layer](docs/sql-kpi-layer.md) for reusable PostgreSQL views, source contracts, KPI denominators, and segmentation fields.
+
+See the [EDA and service diagnostics](docs/eda-and-service-diagnostics.md) guide for the Day 11 script, saved charts, sample findings, and interpretation limits.

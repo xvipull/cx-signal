@@ -1,0 +1,2 @@
+detractor_ref,initial_nps_score,initial_response_at_utc,outreach_status,first_outreach_at_utc,outreach_days_from_detractor,resolution_status,first_resolution_at_utc,resolution_days_from_detractor,followup_nps_score,followup_at_utc,recovery_status
+detractor_ffb21d5f9bf2f1c7,6,2026-10-27T11:45:00Z,within_window,2026-10-28T09:00:00Z,0.8854166666666666,within_window,2026-10-31T15:00:00Z,4.135416666666667,7,2026-11-10T12:00:00Z,recovered

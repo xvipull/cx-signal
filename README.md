@@ -56,3 +56,5 @@ See the [survey-service reconciliation controls](docs/survey-service-reconciliat
 See the [SQL KPI layer](docs/sql-kpi-layer.md) for reusable PostgreSQL views, source contracts, KPI denominators, and segmentation fields.
 
 See the [EDA and service diagnostics](docs/eda-and-service-diagnostics.md) guide for the Day 11 script, saved charts, sample findings, and interpretation limits.
+
+See the [detractor recovery tracking](docs/detractor-recovery-tracking.md) guide for recovery windows, explicit linking rules, status meanings, and limitations.

@@ -1,0 +1,11 @@
+{
+  "policy_version": "detractor-recovery-v1",
+  "nps_question_ids": ["NPS-v1"],
+  "detractor_max_score": 6,
+  "nps_score_min": 0,
+  "nps_score_max": 10,
+  "recovered_min_score": 7,
+  "outreach_window_days": 7,
+  "resolution_window_days": 30,
+  "followup_window_days": 30
+}

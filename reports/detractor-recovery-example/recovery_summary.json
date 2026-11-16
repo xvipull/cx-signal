@@ -1,0 +1,25 @@
+{
+  "as_of_utc": "2026-11-16T06:46:49.345477Z",
+  "detractor_count": 1,
+  "followup_count": 1,
+  "followup_coverage_percent": 100.0,
+  "observed_recovery_rate_percent": 100.0,
+  "outreach_count": 1,
+  "outreach_rate_percent": 100.0,
+  "policy_version": "detractor-recovery-v1",
+  "recovered_count": 1,
+  "recovery_status_counts": {
+    "recovered": 1
+  },
+  "resolution_count": 1,
+  "resolution_rate_percent": 100.0,
+  "timely_outreach_count": 1,
+  "timely_outreach_rate_percent": 100.0,
+  "timely_resolution_count": 1,
+  "timely_resolution_rate_percent": 100.0,
+  "windows_calendar_days": {
+    "followup_after_resolution": 30,
+    "outreach": 7,
+    "resolution": 30
+  }
+}
